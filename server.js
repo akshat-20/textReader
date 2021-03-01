@@ -97,7 +97,7 @@ app.post('/register',async(req,res)=>{
     if(!name || !email || !password2 || !password){
         errors.push({message:"Enter full details"})
     }
-    if(password.length<5){
+    if(password.length<6){
         errors.push({message:"Enter password with atleast 6 characters"})
     }
     if(password != password2){
