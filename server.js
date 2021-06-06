@@ -1,6 +1,6 @@
 const express = require('express');
 const ejs=require('ejs')
-const bcrypt=require('bcrypt')
+const bcrypt=require('bcryptjs')
 const upload = require('express-fileupload')
 const fs = require('fs');
 const pdfparse = require('pdf-parse');
